@@ -4,9 +4,7 @@ public class Main {
         System.out.println(isPositive(-1));
         System.out.println(checkAccess(19));
         System.out.println(getGrade(90));
-
     }
-
 
     public  static boolean isEvent (int n){
         return (n % 2 == 0) ? true : false;
